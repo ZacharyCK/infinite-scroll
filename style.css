@@ -13,8 +13,8 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 40px;
     letter-spacing: 0.25rem;
 }
@@ -38,12 +38,23 @@ h1 {
 
 /* Image Container */
 .image-container {
-    margin: 10px 20%;
+    margin: 10px 27%;
 }
 
 .image-container img {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 75px;
+}
+
+.image-container a:nth-of-type(1) img {
+    margin-top: 25px;
+}
+
+/* Media Query: Large Tablets */
+@media screen and (max-width: 1400px) {
+    .image-container {
+        margin: 10px 20%;
+    }
 }
 
 /* Media Query: Tablets */
